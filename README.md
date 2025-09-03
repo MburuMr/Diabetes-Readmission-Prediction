@@ -1,8 +1,8 @@
 # Diabetes-Readmission-Prediction
-This project focuses on developing a machine learning model designed to predict the likelihood of hospital readmission within 30 days for diabetic patients. Reducing preventable readmissions is crucial for enhancing patient health outcomes and lowering healthcare expenses. Utilizing structured medical data alongside feature importance analysis, the model delivers precise predictions as well as valuable insights for informed decision-making.
+This project focuses on developing a machine learning model designed to predict the likelihood of hospital re-admission within 30 days for diabetic patients. Reducing preventable re-admissions is crucial for enhancing patient health outcomes and lowering healthcare expenses. Utilizing structured medical data alongside feature importance analysis, the model delivers precise predictions as well as valuable insights for informed decision-making.
 
 ## Problem Statement
-Hospital readmissions contribute significantly to healthcare costs and are frequently preventable. This project creates a predictive tool that identifies patients at high risk of readmission at the time of discharge, allowing healthcare providers to take proactive measures. The model incorporates a wide range of features, including patient demographics, prior hospitalizations, medications, diagnoses, and additional relevant data.
+Hospital re-admissions contribute significantly to healthcare costs and are frequently preventable. This project creates a predictive tool that identifies patients at high risk of re-admission at the time of discharge, allowing healthcare providers to take proactive measures. The model incorporates a wide range of features, including patient demographics, prior hospitalizations, medications, diagnoses, and additional relevant data.
 
 ## Overview of the Dataset
 The dataset utilized in this project is obtained from https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008# and comprises more than 100,000 hospital encounter records for diabetic patients across 130 hospitals in the United States.
@@ -18,7 +18,7 @@ Key details include:
 
 ### 2. Exploratory Data Analysis (EDA)
 - Analyzed feature distributions, examined class imbalance, and explored correlations among variables
-- Studied the associations between patient demographics and the likelihood of readmission
+- Studied the associations between patient demographics and the likelihood of re-admission
 
 ### 3. Feature Engineering
 - Engineered new features including:
@@ -57,5 +57,5 @@ Key details include:
 This model can be integrated into hospital EHR systems to:
 - Proactively flag high-risk patients prior to discharge
 - Inform and optimize individualized care plans and follow-up strategies
-- Reduce healthcare costs associated with avoidable readmissions
+- Reduce healthcare costs associated with avoidable re-admissions
 - Enhance patient satisfaction and overall clinical outcomes
